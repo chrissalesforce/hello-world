@@ -18,7 +18,7 @@ import webapp2
 class MainPage(webapp2.RequestHandler):
     def get(self):
         self.response.headers['Content-Type'] = 'text/plain'
-        self.response.write('Hello, World!')
+        self.response.write('Hello, Homie!')
 
 # URL Mapping Section - One URL = / that maps to a handler = Mainpage
 app = webapp2.WSGIApplication([
